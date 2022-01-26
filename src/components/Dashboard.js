@@ -52,7 +52,7 @@ const Dashboard = () => {
       .then((res) => {
         console.log(res);
         getData();
-        setButton(false)
+        setButton(false) 
       });
   }
 
